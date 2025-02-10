@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 class MyQueue {
-    private Queue<Integer> queue;
+    private final Queue<Integer> queue;
 
     // Constructor
     public MyQueue() {
